@@ -34,7 +34,7 @@ j.add_entry("Ubrałem się")
 
 # print(f"Journal entries:\n{j}")
 
-
+# Nie łamiemy S
 class PersistenceManager:
     @staticmethod
     def save_to_file(journal, filename):

@@ -39,6 +39,7 @@ relationships.add_parent_and_child(parent, child2)
 # print(relationships.relations)
 
 
+# W zgodzie z D
 class Research:
     # Szukamy wszystkich dzieci
     def __init__(self, relationships):
