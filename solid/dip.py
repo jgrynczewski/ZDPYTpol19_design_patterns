@@ -41,7 +41,7 @@ relationships.add_parent_and_child(parent, child2)
 
 # W zgodzie z D
 class Research:
-    # Szukamy wszystkich dzieci
+    # Szukamy wszystkich dzieci Johna
     def __init__(self, relationships):
         for r in relationships.relations:
             if r[0].name == "John" and r[1] == Relationship.PARENT:
